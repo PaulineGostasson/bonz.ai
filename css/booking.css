@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    }
+
+    html {
+        scroll-behavior: smooth;
+    }
+
+    body{
+        background-color: #EBC7E6;
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(8, 1fr);
+    }
+
+    header{
+    grid-column: span 8;
+    margin-bottom: 60px;
+    background-image: url(../images/header.png);
+    background-size: cover;
+    height: 300px;
+}
+
+.booking-form{
+    display: flex;
+    background-color: #BFACE2;
+    justify-content: space-evenly;
+    padding: 4rem;
+    margin: 10.2rem 7rem 0 7rem;
+}
+
+.search-btn{
+    display: flex;
+    justify-self: center;
+}
+
+.card-body{
+    height: 400px;
+    width: 20rem;
+    background-color: #A084DC;
+    margin-top: 30rem;
+    border-radius: 1rem 1rem 0 0;
+}
+
+#King{
+    width: 320px;
+}
+
+#Queen{
+    width: 320px;
+}
+
+#Apartment{
+    width: 320px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+footer p{
+text-align: center;
+font-size: 24px;
+margin: 10px;
+font-weight: bold;
+}
+
+footer button{
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #645CBB;
+    color: white;
+    font-weight: bold;
+}
+
+.search-btn{
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #645CBB;
+    color: white;
+    font-weight: bold;
+}

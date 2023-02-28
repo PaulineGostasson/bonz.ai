@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/booking.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="flexbox-container">
+
+        <section class="booking-form">
+
+<!-- Destination Select window -->
+            <select name="destination" id="destination"><option value="Destination">Destination</option>
+            <option value="Destination">Sweden</option>
+            <option value="Destination">USA</option>
+            <option value="Destination">England</option>
+            <option value="Destination">Japan</option></select>
+<!-- Rooms Select window -->
+            <select name="room" id="room"><option value="room">Rooms</option></select>
+
+<!-- Adults Select window -->
+            <select name="adults-children" id="adults-children"><option value="adults-children">1 Adult</option>
+            <option value="adults-children">2 Adults</option>
+        <option value="adults-children">3 Adults</option>
+    <option value="adults-children">4 Adults</option></select>
+<!-- Children Select window -->
+    <select name="adults-children" id="adults-children"><option value="adults-children">No Children</option>
+    <option value="adults-children">1 Child</option>
+<option value="adults-children">2 Children</option>
+<option value="adults-children">3+ Children</option></select>
+
+<div>
+<!-- Check-in Date Select window -->
+<label for="start">Check-in date:</label>
+<input type="date" id="start" name="trip-start"
+       value="2023-02-24"
+       min="2023-02-24" max="2023-12-31">
+    </div>
+<div>
+<!-- Check-out Select window -->
+<label for="start">Check-out date:</label>
+<input type="date" id="start" name="trip-start"
+       value="2023-02-24"
+       min="2023-02-24" max="2023-12-31">
+    </div>
+
+<button class="search-btn">SEARCH</button> 
+        </section>
+    </header>
+
+
+    <main class="grid">
+
+    </main>
+    <footer class="flexbox-container">
+        <div class="card-1">
+            <div class="card-body">
+                <p class="card-text">Bonz.ai King's Suite</p>
+                <img src="images/King.jpg" id="King">
+                <button class="card-btn">Take Me There!</button>
+            </div>
+        </div>
+        <div class="card-2">
+            <div class="card-body">
+                <p class="card-text">Bonz.ai Apartment</p>
+                <img src="images/apartment.jpg" id="Apartment">
+                <button class="card-btn">Take Me There!</button>
+            </div>
+        </div>
+        <div class="card-3">
+            <div class="card-body">
+                <p class="card-text">Bonz.ai Queen's Suite</p>
+                <img src="images/Queen.jpg" id="Queen">
+                <button class="card-btn">Take Me There!</button>
+            </div>
+        </div>
+    </footer>
+</div>
+</body>
+</html>
