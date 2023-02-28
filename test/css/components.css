@@ -200,7 +200,7 @@ header ul li a:hover{
 }
 
 .room-card{
-    grid-column: auto/span 4 ;
+    grid-column: 2/span 6;
 }
 
 .img-room{
